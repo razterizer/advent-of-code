@@ -5,8 +5,14 @@
 //  Created by Rasmus Anthin on 2024-12-02.
 //
 
-#ifndef day1_h
-#define day1_h
+#pragma once
 
+namespace aoc_2024
+{
 
-#endif /* day1_h */
+  void day1()
+  {
+    
+  }
+
+}
