@@ -5,8 +5,20 @@
 //  Created by Rasmus Anthin on 2024-12-02.
 //
 
-#ifndef day2_h
-#define day2_h
+#pragma once
+#include <Core/TextIO.h>
+#include <Core/StlUtils.h>
+#include <vector>
+#include <string>
+#include <sstream>
 
+namespace aoc_2024
+{
 
-#endif /* day2_h */
+  void day2()
+  {
+    std::vector<std::string> lines;
+    TextIO::read_file("2024/day2/data.txt", lines);
+  }
+
+}
