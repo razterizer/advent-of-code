@@ -5,4 +5,13 @@
 //  Created by Rasmus Anthin on 2024-12-02.
 //
 
-#include <stdio.h>
+#include "2024/day1/day1.h"
+#include <iostream>
+
+int main(int argc, char** argv)
+{
+  aoc_2024::day1();
+  std::cout << "Hello World" << std::endl;
+
+  return 0;
+}
