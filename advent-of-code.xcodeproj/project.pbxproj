@@ -30,6 +30,8 @@
 		07B91F2B2CFDB62D00449D7E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		07B91F2C2CFDB62D00449D7E /* run.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = run.sh; sourceTree = "<group>"; };
 		07B91F2D2CFDB62D00449D7E /* build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
+		07B91F2F2CFDBC8600449D7E /* day2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = day2.h; sourceTree = "<group>"; };
+		07B91F302CFDBDAC00449D7E /* data.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		07B91F252CFDAAD900449D7E /* 2024 */ = {
 			isa = PBXGroup;
 			children = (
+				07B91F2E2CFDBC6200449D7E /* day2 */,
 				07B91F262CFDAAE100449D7E /* day1 */,
 			);
 			path = 2024;
@@ -78,6 +81,15 @@
 				07B91F272CFDAB1300449D7E /* day1.h */,
 			);
 			path = day1;
+			sourceTree = "<group>";
+		};
+		07B91F2E2CFDBC6200449D7E /* day2 */ = {
+			isa = PBXGroup;
+			children = (
+				07B91F302CFDBDAC00449D7E /* data.txt */,
+				07B91F2F2CFDBC8600449D7E /* day2.h */,
+			);
+			path = day2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
