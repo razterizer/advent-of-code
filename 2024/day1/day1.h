@@ -6,13 +6,17 @@
 //
 
 #pragma once
+#include <Core/TextIO.h>
+#include <vector>
+#include <string>
 
 namespace aoc_2024
 {
 
   void day1()
   {
-    
+    std::vector<std::string> lines;
+    TextIO::read_file("2024/day1/data.txt", lines);
   }
 
 }
