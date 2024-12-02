@@ -27,6 +27,9 @@
 		07B91F272CFDAB1300449D7E /* day1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = day1.h; sourceTree = "<group>"; };
 		07B91F282CFDAB5900449D7E /* aoc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = aoc.cpp; sourceTree = "<group>"; };
 		07B91F2A2CFDAFA700449D7E /* data.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
+		07B91F2B2CFDB62D00449D7E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		07B91F2C2CFDB62D00449D7E /* run.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = run.sh; sourceTree = "<group>"; };
+		07B91F2D2CFDB62D00449D7E /* build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +46,9 @@
 		07B91F122CFDA96900449D7E = {
 			isa = PBXGroup;
 			children = (
+				07B91F2B2CFDB62D00449D7E /* README.md */,
+				07B91F2D2CFDB62D00449D7E /* build.sh */,
+				07B91F2C2CFDB62D00449D7E /* run.sh */,
 				07B91F282CFDAB5900449D7E /* aoc.cpp */,
 				07B91F252CFDAAD900449D7E /* 2024 */,
 				07B91F1C2CFDA96900449D7E /* Products */,
