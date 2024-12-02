@@ -26,6 +26,7 @@
 		07B91F1B2CFDA96900449D7E /* advent-of-code */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "advent-of-code"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B91F272CFDAB1300449D7E /* day1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = day1.h; sourceTree = "<group>"; };
 		07B91F282CFDAB5900449D7E /* aoc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = aoc.cpp; sourceTree = "<group>"; };
+		07B91F2A2CFDAFA700449D7E /* data.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +68,7 @@
 		07B91F262CFDAAE100449D7E /* day1 */ = {
 			isa = PBXGroup;
 			children = (
+				07B91F2A2CFDAFA700449D7E /* data.txt */,
 				07B91F272CFDAB1300449D7E /* day1.h */,
 			);
 			path = day1;
